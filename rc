@@ -1,0 +1,5 @@
+REPO="https://raw.githubusercontent.com/freetunnel/ftp/main/"
+
+
+
+wget -O /root/.config/rclone/rclone.conf "${REPO}limit/rclone.conf"
